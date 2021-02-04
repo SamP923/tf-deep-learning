@@ -16,7 +16,9 @@ Potential expansions:
 
 
 ### 2. Clothing Classifier  
-Classify 10 types of clothing using the Fashion MNIST dataset.
+Classify 10 types of clothing from the Fashion MNIST dataset using a simple neural network.  
+
+Uses with 87.84% accuracy on the test dataset.
 
 Potential expansions:
 - Work on RPi for live detection?
@@ -32,6 +34,13 @@ Potential expansions:
 |Example| Fashion MNIST | Celsisu to Fahrenheit|
 |Loss | Sparse categorical crossentropy | Mean squared error|
 |Last Layer Activation Function| Softmax | None |
+
+
+### 3. Clothing Classifier using a Convolutional Neural Network
+Classify 10 types of clothing with the Fashion MNIST dataset, except this time using a convolutional neural network.  
+
+Uses two convolution filters and MaxPooling with 91.72% accuracy on the test dataset. This is an improvement from using a single hidden Dense layer.
+
 
 ## License
 
