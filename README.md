@@ -41,6 +41,19 @@ Classify 10 types of clothing with the Fashion MNIST dataset, except this time u
 
 Uses two convolution filters and MaxPooling with 91.72% accuracy on the test dataset. This is an improvement from using a single hidden Dense layer.
 
+### 4. Dogs and Cats Image Classifier
+Classify dogs and cats with the Kaggle dataset using a neural network and image augmentation.
+
+General machine learning workflow
+1. Examine and understand data
+2. Build an input pipeline
+3. Build our model
+4. Train our model
+5. Test our model
+6. Improve our model/Repeat the process
+
+### 5. Flower Classifier
+Classify images of flowers using a neural network and image augmentation.
 
 ## License
 
