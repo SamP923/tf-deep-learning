@@ -7,7 +7,10 @@ Course Link: https://classroom.udacity.com/courses/ud187
 ## Contents
 
 ### 1. Celsius to Farenheit Converter 
-Proof of concept project for how machine learning work using a linear regression model (predict a single value from input).
+[Project](Celsius_to_Farenheit.ipynb)  
+
+**Purpose:**  
+Proof of concept project for how machine learning works using a linear regression model (predict a single value from input).
 
 Potential expansions: 
 - Ability to test multiple numbers at once, rather than one value 
@@ -15,17 +18,19 @@ Potential expansions:
 - Find the relationship between more complex equations (add more nodes based on complexity?)
 
 
-### 2. Clothing Classifier  
+
+### 2. Clothing Classifier 
+[Project](DL_Clothing_Classification.ipynb)  
+
+**Purpose:**  
 Classify 10 types of clothing from the Fashion MNIST dataset using a simple neural network.  
 
 Uses with 87.84% accuracy on the test dataset.
 
-Potential expansions:
-- Work on RPi for live detection?
+Dataset Used: [Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist)
 
 
 #### Linear Regression versus Classification Problems
-
 ![](images/regression_v_classification.PNG)
 
 | | Classification | Regression |
@@ -37,12 +42,28 @@ Potential expansions:
 
 
 ### 3. Clothing Classifier using a Convolutional Neural Network
-Classify 10 types of clothing with the Fashion MNIST dataset, except this time using a convolutional neural network.  
+**Purpose**:  
+Build and train a convolutional neural network (CNN) to classify images of clothing. This model is trained on 60,000 images that include 10 types of articles of clothing.  
+
+This project expands on the previous investigation into classifying clothing using neural networks, except we are now using convolutions for higher performance.  
+
+Dataset Used: [Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist)  
+
+Project based on [TensorFlow's classification example](https://colab.research.google.com/github/tensorflow/examples/blob/master/courses/udacity_intro_to_tensorflow_for_deep_learning/l04c01_image_classification_with_cnns.ipynb)  
 
 Uses two convolution filters and MaxPooling with 91.72% accuracy on the test dataset. This is an improvement from using a single hidden Dense layer.
 
+
+
 ### 4. Dogs and Cats Image Classifier
-Classify dogs and cats with the Kaggle dataset using a neural network and image augmentation.
+[Project without Image Augmentation](Dogs_vs_Cats_wo_Augmentation.ipynb)  
+[Project with Image Augmentation](Dogs_vs_Cats_W_Augmentation.ipynb)  
+
+Classify dogs and cats with the Kaggle dataset using a convolutional neural network and image augmentation.
+
+Dataset Used: [filtered version of Dogs vs. Cats dataset from Kaggle](https://www.kaggle.com/c/dogs-vs-cats/data)  
+
+Project based on [TensorFlow's classification example 1](https://colab.research.google.com/github/tensorflow/examples/blob/master/courses/udacity_intro_to_tensorflow_for_deep_learning/l05c01_dogs_vs_cats_without_augmentation.ipynb) and [example 2](https://colab.research.google.com/github/tensorflow/examples/blob/master/courses/udacity_intro_to_tensorflow_for_deep_learning/l05c02_dogs_vs_cats_with_augmentation.ipynb)  
 
 General machine learning workflow
 1. Examine and understand data
@@ -52,8 +73,48 @@ General machine learning workflow
 5. Test our model
 6. Improve our model/Repeat the process
 
-### 5. Flower Classifier
-Classify images of flowers using a neural network and image augmentation.
+
+### 5. Flower Classification using CNNs
+[Project](Flower_Classifier_CNNs.ipynb)  
+
+**Purpose**:  
+Classify images of flowers with a convolutional neural network using the `tf.keras.Sequential` model and load data using the `ImageDataGenerator` class.  
+
+Dataset Used: [Flower dataset from Google](https://storage.googleapis.com/download.tensorflow.org/example_images/flower_photos.tgz)  
+
+Project based on [TensorFlow's classification example](https://colab.research.google.com/github/tensorflow/examples/blob/master/courses/udacity_intro_to_tensorflow_for_deep_learning/l05c03_exercise_flowers_with_data_augmentation.ipynb#scrollTo=OYmOylPlVrVt)
+
+
+
+### 6. Dogs and Cats Classifier Revisited
+[Project](Dogs_vs_Cats_TransferLearning.ipynb)  
+
+**Purpose**:  
+Use transfer learning to classify images of cats and dogs using [TensorFlow Hub](https://www.tensorflow.org/hub), MobileNet models and the Dogs vs. Cats dataset.  
+
+Concepts Covered:
+1. Use a TensorFlow Hub model for prediction
+2. Use a TensorFlow Hub model for Dogs vs. Cats dataset
+3. Do simple transfer learning with TensorFlow Hub
+
+
+Dataset Used: [Dogs vs Cats dataset](https://www.tensorflow.org/datasets/catalog/cats_vs_dogs)  
+
+Project based on [TensorFlow's transfer learning example](https://colab.research.google.com/github/tensorflow/examples/blob/master/courses/udacity_intro_to_tensorflow_for_deep_learning/l06c01_tensorflow_hub_and_transfer_learning.ipynb)  
+
+
+
+### 7. Flower Classifier Revisited
+[Project](Flower_Classifier_TransferLearning.ipynb)  
+
+**Purpose**:  
+Classify images of flowers with transfer learning using TensorFlow Hub, Google's Flowers Dataset, and MobileNet v2.  
+
+Dataset Used: [Flower dataset from Google](https://storage.googleapis.com/download.tensorflow.org/example_images/flower_photos.tgz)  
+
+Project based on [TensorFlow's classification example](https://colab.research.google.com/github/tensorflow/examples/blob/master/courses/udacity_intro_to_tensorflow_for_deep_learning/l06c02_exercise_flowers_with_transfer_learning.ipynb)
+
+
 
 ## License
 
