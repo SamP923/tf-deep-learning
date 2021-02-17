@@ -7,7 +7,7 @@ Course Link: https://classroom.udacity.com/courses/ud187
 ## Contents
 
 ### 1. Celsius to Farenheit Converter 
-[Project](Celsius_to_Farenheit.ipynb)  
+[Project Notebook](Celsius_to_Farenheit.ipynb)  
 
 **Purpose:**  
 Proof of concept project for how machine learning works using a linear regression model (predict a single value from input).
@@ -20,12 +20,10 @@ Potential expansions:
 
 
 ### 2. Clothing Classifier 
-[Project](DL_Clothing_Classification.ipynb)  
+[Project Notebook](DL_ClothingClassification.ipynb)  
 
 **Purpose:**  
-Classify 10 types of clothing from the Fashion MNIST dataset using a simple neural network.  
-
-Uses with 87.84% accuracy on the test dataset.
+Classify 10 types of clothing from the Fashion MNIST dataset using a simple neural network. Used with 87.84% accuracy on the test dataset.
 
 Dataset Used: [Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist)
 
@@ -42,16 +40,14 @@ Dataset Used: [Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist)
 
 
 ### 3. Clothing Classifier using a Convolutional Neural Network
-**Purpose**:  
-Build and train a convolutional neural network (CNN) to classify images of clothing. This model is trained on 60,000 images that include 10 types of articles of clothing.  
+[Project Notebook](CNN_ClothingClassification.ipynb)  
 
-This project expands on the previous investigation into classifying clothing using neural networks, except we are now using convolutions for higher performance.  
+**Purpose**:  
+Build and train a convolutional neural network (CNN) to classify images of clothing. This model is trained on 60,000 images that include 10 types of articles of clothing. This project expands on the previous investigation into classifying clothing using neural networks, except we are now using convolutions for higher performance. Uses two convolution filters and MaxPooling with 91.72% accuracy on the test dataset. This is an improvement from using a single hidden Dense layer.  
 
 Dataset Used: [Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist)  
 
 Project based on [TensorFlow's classification example](https://colab.research.google.com/github/tensorflow/examples/blob/master/courses/udacity_intro_to_tensorflow_for_deep_learning/l04c01_image_classification_with_cnns.ipynb)  
-
-Uses two convolution filters and MaxPooling with 91.72% accuracy on the test dataset. This is an improvement from using a single hidden Dense layer.
 
 
 
@@ -75,7 +71,7 @@ General machine learning workflow
 
 
 ### 5. Flower Classification using CNNs
-[Project](Flower_Classifier_CNNs.ipynb)  
+[Project Notebook](Flower_Classifier_CNNs.ipynb)  
 
 **Purpose**:  
 Classify images of flowers with a convolutional neural network using the `tf.keras.Sequential` model and load data using the `ImageDataGenerator` class.  
@@ -87,7 +83,7 @@ Project based on [TensorFlow's classification example](https://colab.research.go
 
 
 ### 6. Dogs and Cats Classifier Revisited
-[Project](Dogs_vs_Cats_TransferLearning.ipynb)  
+[Project Notebook](Dogs_vs_Cats_TransferLearning.ipynb)  
 
 **Purpose**:  
 Use transfer learning to classify images of cats and dogs using [TensorFlow Hub](https://www.tensorflow.org/hub), MobileNet models and the Dogs vs. Cats dataset.  
@@ -105,7 +101,7 @@ Project based on [TensorFlow's transfer learning example](https://colab.research
 
 
 ### 7. Flower Classifier Revisited
-[Project](Flower_Classifier_TransferLearning.ipynb)  
+[Project Notebook](Flower_Classifier_TransferLearning.ipynb)  
 
 **Purpose**:  
 Classify images of flowers with transfer learning using TensorFlow Hub, Google's Flowers Dataset, and MobileNet v2.  
