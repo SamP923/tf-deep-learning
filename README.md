@@ -42,7 +42,7 @@ Dataset Used: [Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist)
 ### 3. Clothing Classifier using a Convolutional Neural Network
 [Project Notebook](CNN_ClothingClassification.ipynb)  
 
-**Purpose**:  
+**Purpose:**  
 Build and train a convolutional neural network (CNN) to classify images of clothing. This model is trained on 60,000 images that include 10 types of articles of clothing. This project expands on the previous investigation into classifying clothing using neural networks, except we are now using convolutions for higher performance. Uses two convolution filters and MaxPooling with 91.72% accuracy on the test dataset. This is an improvement from using a single hidden Dense layer.  
 
 Dataset Used: [Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist)  
@@ -55,6 +55,7 @@ Project based on [TensorFlow's classification example](https://colab.research.go
 [Project without Image Augmentation](Dogs_vs_Cats_wo_Augmentation.ipynb)  
 [Project with Image Augmentation](Dogs_vs_Cats_W_Augmentation.ipynb)  
 
+**Purpose:**  
 Classify dogs and cats with the Kaggle dataset using a convolutional neural network and image augmentation.
 
 Dataset Used: [filtered version of Dogs vs. Cats dataset from Kaggle](https://www.kaggle.com/c/dogs-vs-cats/data)  
@@ -73,7 +74,7 @@ General machine learning workflow
 ### 5. Flower Classification using CNNs
 [Project Notebook](Flower_Classifier_CNNs.ipynb)  
 
-**Purpose**:  
+**Purpose:**  
 Classify images of flowers with a convolutional neural network using the `tf.keras.Sequential` model and load data using the `ImageDataGenerator` class.  
 
 Dataset Used: [Flower dataset from Google](https://storage.googleapis.com/download.tensorflow.org/example_images/flower_photos.tgz)  
@@ -85,7 +86,7 @@ Project based on [TensorFlow's classification example](https://colab.research.go
 ### 6. Dogs and Cats Classifier Revisited
 [Project Notebook](Dogs_vs_Cats_TransferLearning.ipynb)  
 
-**Purpose**:  
+**Purpose:**  
 Use transfer learning to classify images of cats and dogs using [TensorFlow Hub](https://www.tensorflow.org/hub), MobileNet models and the Dogs vs. Cats dataset.  
 
 Concepts Covered:
@@ -103,12 +104,27 @@ Project based on [TensorFlow's transfer learning example](https://colab.research
 ### 7. Flower Classifier Revisited
 [Project Notebook](Flower_Classifier_TransferLearning.ipynb)  
 
-**Purpose**:  
+**Purpose:**  
 Classify images of flowers with transfer learning using TensorFlow Hub, Google's Flowers Dataset, and MobileNet v2.  
 
 Dataset Used: [Flower dataset from Google](https://storage.googleapis.com/download.tensorflow.org/example_images/flower_photos.tgz)  
 
 Project based on [TensorFlow's classification example](https://colab.research.google.com/github/tensorflow/examples/blob/master/courses/udacity_intro_to_tensorflow_for_deep_learning/l06c02_exercise_flowers_with_transfer_learning.ipynb)
+
+### 8. Time Series Forecasting
+[Project Folder](tfs_examples/)  
+
+**Purpose:**  
+Learn implementations of time series forecasting using various architectures. Architectures include:  
+1. Linear model
+2. Dense models with multiple layers
+3. Simple Recurrent Nerual Network (RNN) with simple RNN cells
+4. Sequence to vector
+5. Sequence to sequence
+6. [Stateless RNN](tsf_examples\Forecasting_w_RNNs.ipnyb)
+7. [Stateful RNN](tsf_examples\Forecasting_w_Stateful_RNN.ipynb)
+8. [Long-Short Term Memory Cells](tfs_examples\Forecasting_w_LSTM.ipynb)
+9. [Convolutional Neural Network (CNN)](tsf_example\Forecasting_w_CNNs.ipnyb)
 
 
 
